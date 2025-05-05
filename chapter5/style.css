@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+li {
+    display: inline;
+    font-size: 3vw;
+}
+
+ul {
+    list-style: circle;
+}
+
+header{
+    padding: 25px;
+    background-color: blue;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    min-height: 245vh;
+    width: 56vw;
+    background-color: aqua;
+    border: 2px solid black;
+    z-index: 1;
+    position: relative;
+}
+.container2{
+    min-height: 245vh;
+    width: 56vw;
+    background-color: rgb(163, 113, 5);
+    border: 2px solid black;
+}
